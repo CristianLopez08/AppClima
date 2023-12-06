@@ -1,6 +1,6 @@
-const apiKey = '7bff6b91621747e7593b53cfd20822b6';
-const telegramBotToken = '6960779331:AAH-K-lcV_Ja-mIQ_Z2OvxZT1aAdMsyWnSo';
-const telegramChatId = '1160407643';
+const apiKey = 'TU_API_DE_OPENWEATHERMAP';
+const telegramBotToken = 'TU_TOKEN_BOT_DE_TELEGRAM';
+const telegramChatId = 'TU_CHAT_ID';
 
 function getCurrentLocationWeather() {
     if (navigator.geolocation) {
