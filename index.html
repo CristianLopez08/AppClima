@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        
+        <div>
+            <button onclick="getCurrentLocationWeather()">Obtener Clima ubicacion actual</button>
+        </div>
+        
+        <div>
+            <label for="city-input">Ciudad:</label>
+            <input type="text" id="city-input">
+            <button onclick="searchWeather()">Buscar Clima</button>
+        </div>
+
+        <div id="current-location"></div>
+        <div id="current-weather"></div>
+        <div id="additional-info"></div>
+
+        <button onclick="sendReport()">Enviar Reporte</button>
+
+        <div id="telegram-report"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('images/fondito.jpg') no-repeat center center fixed;
+    background-size: cover;
+    transition: background-image 1s ease;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+    backdrop-filter: blur(10px); 
+}
+
+header, section, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 24px; 
+    font-size: 18px; 
+    background-color: #60db34;
+    color: #fff;
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: rgb(41, 185, 77);
+}
+
+#weatherInfo {
+    text-align: center;
+    padding: 20px;
+}
+
+.weather-icon {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.weather-background {
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease;
+}
